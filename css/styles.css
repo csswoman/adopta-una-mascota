@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #38ada9;
+    --secondary-color: #78e08f;
+    --light-color: #b8e994;
+}
+
+#home {
+    background-color: 
+}
+
+#default-navbar {
+    background-color: var(--primary-color);
+}
+
+#default-navbar .nav-link,
+#default-navbar .navbar-brand {
+    color: #FFF;
+}
