@@ -59,3 +59,37 @@
 .options-area .opt .opt-top {
     margin-top: 40px;
 }
+.search {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+.adoption-sect {
+    background-color: #fff;
+}
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 28px;
+    margin-top: 12px;
+}
+.monthly-adoptions-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.img-container figure > img{
+    max-height: 184px;
+}
+.img-container figure > figcaption {
+    font-size: 20px;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+}
