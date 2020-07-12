@@ -1,11 +1,7 @@
-root {
+:root {
     --primary-color: #38ada9;
     --secondary-color: #78e08f;
     --light-color: #b8e994;
-}
-
-#home {
-    background-color: 
 }
 
 #default-navbar {
@@ -17,5 +13,14 @@ root {
     color: #FFF;
 }
 
+#home-carousel .carousel-item {
+    height: 240px;
+}
 
+#home-carousel .carousel-caption > h5 {
+    font-size: 2rem;
+}
 
+#home-carousel .carousel-caption > p {
+    font-size: 1.25rem;
+}
