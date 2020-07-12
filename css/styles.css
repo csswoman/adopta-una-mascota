@@ -24,3 +24,38 @@
 #home-carousel .carousel-caption > p {
     font-size: 1.25rem;
 }
+
+.options-sect {
+    background-color: var(--secondary-color);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.options-area {
+    height: inherit;
+    padding: 20px 0;
+}
+.options-area .opt {
+    text-align: center;
+    color: #FFF;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 300px;
+}
+.options-area .opt .opt-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.options-area .opt .opt-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.options-area .opt .opt-desc {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.options-area .opt .opt-top {
+    margin-top: 40px;
+}

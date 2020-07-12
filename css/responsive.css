@@ -8,6 +8,11 @@
   #home-carousel .carousel-item {
     height: 440px;
   }
+  .options-area .opt {
+    min-width: auto;
+  }
+  .options-area .opt .opt-top {
+    margin-top: 0;
 
   }
 
