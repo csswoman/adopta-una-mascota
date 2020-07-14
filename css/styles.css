@@ -93,3 +93,15 @@
     color:black;
     text-align: center;
 }
+
+.adoptions {
+    display: inline-block;
+}
+
+.btn-basic {
+    background-color: var(--secondary-color);
+}
+
+body{
+    background-color: bisque;
+}
