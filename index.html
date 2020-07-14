@@ -9,11 +9,11 @@
     <title>Adopta una mascota</title>
   </head>
   <body id="home">
-<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label" aria-hidden="true">
+<div class="modal fade" id="donation-modal" tabindex="-1" role="dialog" aria-labelledby="donation-modal-label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="contact-modal-label">Contacto</h5>
+        <h5 class="modal-title" id="donation-modal-label">Donaciones</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -56,10 +56,10 @@
               <a class="nav-link" href="#">Hogar temporal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Donaciones</a>
+              <a class="nav-link" data-toggle="modal" data-target="#donation-modal">Donaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="modal" data-target="#contact-modal">Contacto</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>
@@ -169,6 +169,20 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section>
+        <h3 class="section-title text-center">Contacto</h3>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
       </section>
     </div>
 
