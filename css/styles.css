@@ -114,3 +114,9 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.card-footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
