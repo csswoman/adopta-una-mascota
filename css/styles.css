@@ -1,8 +1,18 @@
 :root {
-    --primary-color: #6B7A8F;
+    --dark-color: #9C9692;
+    --primary-color: #6A9AA1;
     --secondary-color: #99CED4;
-    --light-color: #88BBD6;
+    --light-color: #FFF9F5;
     --background: #EDDBCD;
+    --text: #00002E;
+}
+body{
+    background-color: var(--background);
+    background-image: radial-gradient(white 15%, transparent 16%),
+    radial-gradient(white 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    color: #00002E;
 }
 
 #default-navbar {
@@ -37,7 +47,7 @@
 }
 .options-area .opt {
     text-align: center;
-    color: #FFF;
+    color: var(--text);
     flex-grow: 1;
     flex-basis: 0;
     min-width: 300px;
@@ -61,7 +71,7 @@
     margin-top: 40px;
 }
 .search {
-    background-color: var(--primary-color);
+    background-color: var(--dark-color);
     color: #FFF;
 }
 
@@ -101,12 +111,6 @@
 
 .btn-basic {
     background-color: var(--secondary-color);
-}
-
-body{
-    background-color: var(--background);
-    background-image: radial-gradient(white 15%, transparent 16%),
-    radial-gradient(white 15%, transparent 16%);
-    background-size: 60px 60px;
-    background-position: 0 0, 30px 30px;
+    display: flex;
+    justify-content: center;
 }
